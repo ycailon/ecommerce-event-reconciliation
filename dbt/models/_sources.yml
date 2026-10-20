@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: commerce
+    schema: analytics
+    tables:
+      - name: commerce_events
+        columns:
+          - name: event_id
+            tests: [not_null, unique]
+          - name: order_id
+            tests: [not_null]
+          - name: event_type
+            tests:
+              - accepted_values:
+                  values: ['order_paid', 'checkout_completed']

@@ -1,0 +1,7 @@
+{"event_id":"evt_1","event_type":"order_paid","order_id":"ORD001","amount_cents":12000,"currency":"USD","occurred_at":"2026-10-15T10:00:00Z","analytics_consent":false}
+{"event_id":"evt_2","event_type":"checkout_completed","order_id":"ORD001","amount_cents":12000,"currency":"USD","occurred_at":"2026-10-15T10:00:01Z","analytics_consent":true}
+{"event_id":"evt_3","event_type":"order_paid","order_id":"ORD002","amount_cents":5000,"currency":"USD","occurred_at":"2026-10-15T11:00:00Z","analytics_consent":false}
+{"event_id":"evt_4","event_type":"checkout_completed","order_id":"ORD002","amount_cents":4500,"currency":"USD","occurred_at":"2026-10-15T11:00:01Z","analytics_consent":true}
+{"event_id":"evt_5","event_type":"order_paid","order_id":"ORD003","amount_cents":8000,"currency":"USD","occurred_at":"2026-10-15T12:00:00Z","analytics_consent":false}
+{"event_id":"evt_6","event_type":"checkout_completed","order_id":"ORD003","amount_cents":8000,"currency":"USD","occurred_at":"2026-10-15T12:00:01Z","analytics_consent":false}
+{"event_id":"evt_1","event_type":"order_paid","order_id":"ORD001","amount_cents":12000,"currency":"USD","occurred_at":"2026-10-15T10:00:00Z","analytics_consent":false}

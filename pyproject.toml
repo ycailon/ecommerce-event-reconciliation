@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce-event-reconciliation"
+version = "0.1.0"
+description = "A synthetic, privacy-aware commerce event ingestion and reconciliation demonstration"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ecommerce-reconcile = "ecommerce_reconciliation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
